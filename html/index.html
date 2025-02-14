@@ -6,39 +6,104 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script src="jquery-3.7.1.min.js"></script>
     <script src="../js/announcement.js"></script>
+    <script src="../js/nav.js"></script>
     <link rel="stylesheet" href="../css/bass.css">
     <link rel="stylesheet" href="../css/style.css">
     <script></script>
     <title>Document</title>
 </head>
 <body>
+    
     <div class ="container">
+        <div class="header-off">
+
         <div class="announcement_header">
             <p>Save 20% On The Perfect Valentine's Day Bouquet! Use Code VDAYHEAT</p>
         </div>
         <header>
-
-        <div class="header_nav_row">
-            <div class="navigation">
-                <ul>
-                    <li><a href="">Valentine's Day</a></li>
-                    <li><a href="">Same-Day Delivery</a></li>
-                    <li><a href="">Subscription</a></li>
-                    <li><a href="">Roses</a></li>
-                </ul>
-            </div>
-            <div class="logo">
-                <img src="../image/index/Urban_Logo.png" alt="">
-            </div>
-            <div class="login">
-                <i class="fa-solid fa-user fa-lg"></i>
-                <i class="fa-solid fa-bag-shopping fa-lg"></i>
-            </div>
-                
-        </div>
+                <div class="header_nav_row ">
+                    <div class="navigation">
+                        <ul class="fix">
+                        <li><i class="fa-solid fa-bars bars" onclick=showSidebar()></i></li>
+                            <li class="dropdown-btn">
+                                    <a href="#">Shop</a>
+                                    <div class="dropdown-menu">
+                                        <div class="dropdown-column">
+                                            <h4>Shop</h4>
+                                            <a href="#">All</a>
+                                            <a href="#">Valentine's Day</a>
+                                            <a href="#">Flowers</a>
+                                            <a href="#">Gifts</a>
+                                        </div>
+                                        <div class="dropdown-column">
+                                            <h4>Fantastic flowers</h4>
+                                            <a href="#">Roses</a>
+                                            <a href="#">Orchids</a>
+                                            <a href="#">Succulents</a>
+                                        </div>
+                                        <div class="dropdown-column">
+                                            <h4>Perfect plants</h4>
+                                            <a href="#">Indoor Plants</a>
+                                            <a href="#">Monstera</a>
+                                            <a href="#">Cactus</a>
+                                        </div>
+                                        <li><a class="nav-off" href="">Same-Day</a></li>
+                                        <li><a class="nav-off" href="">Subscription</a></li>
+                                        <li><a class="nav-off" href="">Roses</a></li>
+                                    </div>
+                                    
+                                    <div class="logo">
+                                        <img src="../image/index/floom.png" alt="">
+                                    </div>
+                                    <div class="login">
+                                        <i class="fa-solid fa-user fa-lg"></i>
+                                        <i class="fa-solid fa-bag-shopping fa-lg"></i>
+                                    </div>                             
+                                <div class="sidebar">
+                                    <ul>
+                                        <i onclick=hideSidebar() class="fa-solid fa-xmark"></i>
+                                        <li><a href="">Shop</a></li>
+                                        <li><a href="">Same-Day Delivery</a></li>
+                                        <li><a href="">Subscription</a></li>
+                                        <li><a href="">Roses</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        
         </header>
-        <main>
+    </div>
 
+        <main>
+            <div class="bg-pink">
+                <div class="floom-row">
+                    <div class="floom-info">
+                        <div class="floom-info-topic">
+                            <h1>Unique flowers & gifts by local florists across the U.S.</h1>
+                        </div>
+                        <div class="floom-info-zip">
+                            <i class="fa-solid fa-house fa-xl"></i>
+                            <input type="text">
+                            <i class="fa-solid fa-calendar fa-xl"></i>
+                            <select name="" id="">
+                                <option value=""></option>
+                            </select>
+                            <a href=""class="button-shop">Shop Now</a>
+                        </div>
+                        <div class="floom-info-check">
+                            <p><i class="fa-solid fa-circle-check fa-xl"></i> What you see is what you get guarantee</p>
+                            <p><i class="fa-solid fa-circle-check fa-xl"></i> Same-day & next-day delivery</p>
+                            <p><i class="fa-solid fa-circle-check fa-xl"></i> Over 4000 lovingly-made, seasonal bouquets to choose from</p>
+                        </div>
+                    </div>
+                    <div class="floom-ads">
+                        <img src="../image/index/background_pink.avif" alt="">
+                    </div>
+                </div>
+                
+            </div>
         </main>
         <footer>
 
