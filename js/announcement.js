@@ -15,12 +15,12 @@ document.addEventListener('DOMContentLoaded', () => {
 $(document).ready(function() {
     $('.dropdown-btn > a').click(function(e) {
       e.preventDefault();
-      $('#dropdownMenu').stop().slideToggle(500);
+      $('.dropdownMenu').stop().slideToggle(500);
     });
   
     $(document).click(function(event) {
       if (!$(event.target).closest('.dropdown-btn').length) {
-        $('#dropdownMenu').slideUp(500);
+        $('.dropdownMenu').slideUp(500);
       }
     });
   });

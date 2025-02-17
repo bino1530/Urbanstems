@@ -1,5 +1,10 @@
 html{
     height: 5000px;
+
+}
+body{
+    padding: 0;
+    margin: 0;
 }
 .header-off{
     position: fixed;
@@ -25,16 +30,20 @@ html{
     width: 100%;
     display: grid;
     grid-template-columns: 33% 33% 33%;
+    justify-content: center;
     align-items: center;
     background-color:white;
     top: 0;
+    left: 0;
     border-bottom: 1px solid rgb(214, 214, 214);
     height: 70px;     
 }
 .navigation .fix{
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
+    margin-bottom: 0;
+    
 }
 
 .navigation a{
@@ -73,8 +82,8 @@ html{
     visibility: hidden;
     transform: translateY(-10px);
     position: absolute;
-    top: 100%;
-    left: 0;
+    top: 70%;
+    left: 20;
     padding: 20px;
     width: 500px;
     height: auto;
@@ -100,6 +109,7 @@ html{
     color: #494949;
     text-decoration: none;
     transition: color 0.3s;
+    padding-top: 10px;
 }
 
 .dropdown-btn:hover .dropdown-menu {
@@ -109,7 +119,7 @@ html{
     transition-delay: 0s;
 }
 
-.dropdown-btn {
+.dropdown-btn1 {
     position: relative;
 }
 .sidebar {
@@ -177,23 +187,26 @@ html{
 
 .bg-pink{
     background-color: var(--bg_pink);
-    height: auto;
-    margin-top: 100px;
     width: 100%;
-    
+    height: 100%;
+    margin-top: 100px;
+    box-sizing: border-box;   
+    padding: 0;
 }
 
 .floom-row{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 40px;
-    padding: 0 50px;
+    gap: 20px;
     width: 100%;
-}
+    box-sizing: border-box; 
 
+}
+.floom-info{
+    padding: 30px;
+}
 .floom-info-topic h1{
-    font-size: 48px;
     font-weight: 700;
     color: #111;
     margin-bottom: 30px;
@@ -251,8 +264,117 @@ html{
 
 .floom-ads img{
     width: 100%;
+    height: 100%;
 
 }
+.seller-row p{
+    text-align: center;
+    width: 100%;
+    background-color: var(--button_color);
+    color: white;
+    padding: 10px 0px;
+    margin: 0;
+}
+
+.best-seller-container h1{
+    text-align: center;
+    margin-top: 20px;
+
+}.best-seller-image img{
+    width: 100%;
+
+}
+.best-seller-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 25px;
+}
+.best-seller-col{
+    width: 330px;
+}
+.best-seller-info{
+    display: flex;
+    justify-content: space-between;
+}
+.best-seller-info p{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.best-seller-sales-off .text-blue{
+    color: var(--button_color);
+    font-weight: 700;
+    margin-top: 10px;
+}
+.best-seller-sales-off span{
+    animation: ani 6s linear infinite;
+}
+.monthly-flower{
+    margin-top: 150px;
+}
+
+.monthly-flower{
+    width: 100%;
+    position: relative;
+
+}
+.monthly-flower-image {
+    width: 100%;
+}
+.monthly-flower-image img{
+    width: 100%;
+    position: relative;
+}
+.monthly-flower-info p,h1{
+    text-align: right;
+    font-weight: bold;
+
+}
+.monthly-flower h1{
+    font-weight: bold;
+}
+.monthly-flower-info{
+    position: absolute;
+    right: 0;
+    top: 35%;
+    bottom: 50%;
+    transform: translate(-15%, -50%);
+    width: 530px;
+}
+.starts-subscription{
+    display: inline-block;
+    justify-content: right;
+    align-items: center;
+    background-color: var(--button_color);
+    padding: 20px;
+    color: white;
+    position: absolute;
+    margin-top: 10px;
+    right: 0;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out , background-color 0.3s ease;
+
+}
+.starts-subscription p{
+    margin: 0;
+
+}
+.starts-subscription:hover{
+    background-color: darkblue;
+}
+@keyframes ani{
+    0%{
+        color: var(--button_color);
+    }
+    50%{
+        color: darkgreen;
+    }
+
+    100%{
+        color: darkblue;
+    }
+}
+
 
 @media (max-width:1024px) {
     header{
@@ -304,49 +426,11 @@ html{
         margin-top: 50px;
         
     }
-}
-
-
-
-@media (max-width: 767px) {
-    .floom-row{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        align-items: center;
-        gap: 50px;
-        width: 100%;
-        padding: 0px;
+    .best-seller-col{
+        width: 330px;
+        margin-top: 50px;
     }
-    .floom-info{
-        padding: 30px;
-    }
-    .floom-info-zip{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: white;
-        border-radius: 50px;
-        padding: 10px 15px;
-        gap: 12px;
-        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    }
-    .floom-info-zip input[type='text'],
-    .floom-info-zip select{
-    width: 250px;
-    height: 45px;
-    border-radius: 50px;
-    border: 1px solid #ccc;
-    padding-left: 15px;
-    font-size: 14px;
-    margin-top: 10px;
-    }
-
-    .floom-info-topic h1{
-        font-size: 32px;
-        font-weight: 700;
-        color: #111;
-        margin-bottom: 30px;
-    }
+    
 }
 
 
@@ -399,5 +483,138 @@ html{
         color: #111;
         margin-bottom: 30px;
     }
-    
+    .monthly-flower h1{
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .monthly-flower-info{
+        position: absolute;
+        right: 0;
+        top: 30%;
+        bottom: 50%;
+        transform: translate(-10%, -50%);
+        width: 400px;
+    }
+    .starts-subscription{
+        display: inline-block;
+        justify-content: right;
+        align-items: center;
+        background-color: var(--button_color);
+        padding: 10px;
+        color: white;
+        position: absolute;
+        margin-top: 10px;
+        right: 0;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out , background-color 0.3s ease;
+    }
 }
+
+
+@media (max-width: 767px) {
+    .floom-row{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        gap: 50px;
+        width: 100%;
+        padding: 0px;
+    }
+    .floom-info{
+        padding: 30px;
+    }
+    .floom-info-zip{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        border-radius: 50px;
+        padding: 10px 15px;
+        gap: 12px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .floom-info-zip input[type='text'],
+    .floom-info-zip select{
+    width: 250px;
+    height: 45px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 14px;
+    margin-top: 10px;
+    }
+
+    .floom-info-topic h1{
+        font-size: 32px;
+        font-weight: 700;
+        color: #111;
+        margin-bottom: 30px;
+    }
+    .monthly-flower h1{
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .monthly-flower-info p{
+        text-align: right;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .monthly-flower-info{
+        position: absolute;
+        right: 0;
+        top: 20%;
+        bottom: 50%;
+        transform: translate(-10%, -50%);
+        width: 250px;
+    }
+    .starts-subscription{
+        display: inline-block;
+        justify-content: right;
+        align-items: center;
+        background-color: var(--button_color);
+        padding: 8px;
+        color: white;
+        position: absolute;
+        margin-top: 10px;
+        right: 0;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out , background-color 0.3s ease;
+    
+    }
+}
+
+@media (max-width: 567px) {
+    .monthly-flower h1{
+        font-weight: bold;
+        font-size: 10px;
+    }
+    .monthly-flower-info p{
+        text-align: right;
+        font-weight: bold;
+        font-size: 8px;
+    }
+    .monthly-flower-info{
+        position: absolute;
+        right: 0;
+        top: 20%;
+        bottom: 50%;
+        transform: translate(-10%, -50%);
+        width: 180px;
+    }
+    .starts-subscription{
+        display: inline-block;
+        justify-content: right;
+        align-items: center;
+        background-color: var(--button_color);
+        padding: 8px;
+        color: white;
+        position: absolute;
+        margin-top: 0px;
+        right: 0;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out , background-color 0.3s ease;
+    
+    }
+
+}
+
