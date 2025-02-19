@@ -20,6 +20,9 @@
         display: none;
         margin: 0;
     }
+    .navigation{
+        width: 100%;
+    }
     .fa-bars {
         display: block;
     }
