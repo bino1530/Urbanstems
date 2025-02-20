@@ -301,6 +301,10 @@ body{
     margin: 0;
 }
 
+.best-seller-row{
+    margin: 0;
+}
+
 .best-seller-container h1{
     text-align: center;
     margin-top: 20px;
@@ -311,9 +315,11 @@ body{
     overflow: hidden;
     cursor: pointer;
 }
+
 .best-seller-image img{
     width: 100%;
     transition: transform 0.3s ease;
+
 }.best-seller-image img:hover{
     width: 100%;
     transform: scale(1.3);
@@ -348,7 +354,7 @@ body{
     animation: ani 6s linear infinite;
 }
 .Monthly_Flowers{
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 .Monthly_Flowers{
@@ -363,10 +369,14 @@ body{
     width: 100%;
     position: relative;
 }
-.Monthly_Flowers-info p,h1{
+.Monthly_Flowers-info p{
     text-align: right;
     font-weight: bold;
-
+    font-size: 20px;
+}
+.Monthly_Flowers-info h1{
+    text-align: right;
+    font-weight: bold;
 }
 .Monthly_Flowers-info{
     position: absolute;
@@ -378,7 +388,7 @@ body{
 }
 
 .starts-subscription{
-    display: inline-block;
+    display: inline-block;  
     justify-content: right;
     align-items: center;
     background-color: var(--button_color);
@@ -422,7 +432,7 @@ body{
 }
 
 .Flowers-Delivery{
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 .Flowers-Delivery{
@@ -437,7 +447,12 @@ body{
     width: 100%;
     position: relative;
 }
-.Flowers-Delivery-info h1 , .Flowers-Delivery-info p{
+.Flowers-Delivery p{
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+.Flowers-Delivery h1{
     text-align: left;
     font-weight: bold;
 }
