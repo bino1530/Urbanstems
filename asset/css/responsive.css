@@ -136,7 +136,11 @@
 
    .Monthly_Flowers h1{
         font-weight: bold;
-        font-size: 30px;
+        font-size: 23px;
+    }
+   .Monthly_Flowers p{
+        font-weight: bold;
+        font-size: 20px;
     }
    .Monthly_Flowers-info{
         position: absolute;
@@ -167,7 +171,11 @@
 
     .Flowers-Delivery h1{
         font-weight: bold;
-        font-size: 30px;
+        font-size: 23px;
+    }
+    .Flowers-Delivery p{
+        font-weight: bold;
+        font-size: 20px;
     }
     .Flowers-Delivery-info{
         position: absolute;
