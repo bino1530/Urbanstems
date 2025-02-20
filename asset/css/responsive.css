@@ -128,11 +128,11 @@
         color: #111;
         margin-bottom: 30px;
     }
-    .monthly-flower h1{
+   .Monthly_Flowers h1{
         font-weight: bold;
         font-size: 30px;
     }
-    .monthly-flower-info{
+   .Monthly_Flowers-info{
         position: absolute;
         right: 0;
         top: 30%;
@@ -140,6 +140,7 @@
         transform: translate(-10%, -50%);
         width: 400px;
     }
+
     .starts-subscription{
         display: inline-block;
         justify-content: right;
@@ -154,6 +155,36 @@
         transition: transform 0.3s ease-in-out , background-color 0.3s ease;
     }
     
+    .Flowers-Delivery h1{
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .Flowers-Delivery-info{
+        position: absolute;
+        right: 0;
+        top: 30%;
+        bottom: 50%;
+        transform: translate(10%, -50%);
+        width: 400px;
+    }
+    
+    .Order-Same-Day{
+        display: inline-block;
+        justify-content: right;
+        align-items: center;
+        background-color: var(--button_color);
+        padding: 10px;
+        color: white;
+        position: absolute;
+        margin-top: 10px;
+        left: 0;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out , background-color 0.3s ease;
+    }
+    
+
+    
+
 }
 
 
@@ -196,16 +227,16 @@
         color: #111;
         margin-bottom: 30px;
     }
-    .monthly-flower h1{
+    .Monthly_Flowers h1{
         font-weight: bold;
         font-size: 15px;
     }
-    .monthly-flower-info p{
+    .Monthly_Flowers-info p{
         text-align: right;
         font-weight: bold;
         font-size: 12px;
     }
-    .monthly-flower-info{
+    .Monthly_Flowers-info{
         position: absolute;
         right: 0;
         top: 20%;
@@ -213,6 +244,7 @@
         transform: translate(-10%, -50%);
         width: 250px;
     }
+
     .starts-subscription{
         display: inline-block;
         justify-content: right;
@@ -227,19 +259,53 @@
         transition: transform 0.3s ease-in-out , background-color 0.3s ease;
     
     }
+
+   .Flowers-Delivery h1{
+        font-weight: bold;
+        font-size: 15px;
+    }
+   .Flowers-Delivery-info p{
+        text-align: left;
+        font-weight: bold;
+        font-size: 12px;
+    }
+   .Flowers-Delivery-info{
+        position: absolute;
+        right: 0;
+        top: 20%;
+        bottom: 50%;
+        transform: translate(10%, -50%);
+        width: 250px;
+    }
+
+    
+
+    .Order-Same-Day{
+        display: inline-block;
+        justify-content: right;
+        align-items: center;
+        background-color: var(--button_color);
+        padding: 8px;
+        color: white;
+        position: absolute;
+        margin-top: 10px;
+        left: 0;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out , background-color 0.3s ease;
+    }
 }
 
 @media (max-width: 567px) {
-    .monthly-flower h1{
+    .Monthly_Flowers h1{
         font-weight: bold;
         font-size: 10px;
     }
-    .monthly-flower-info p{
+    .Monthly_Flowers-info p{
         text-align: right;
         font-weight: bold;
         font-size: 8px;
     }
-    .monthly-flower-info{
+    .Monthly_Flowers-info{
         position: absolute;
         right: 0;
         top: 20%;
@@ -260,6 +326,38 @@
         cursor: pointer;
         transition: transform 0.3s ease-in-out , background-color 0.3s ease;
     
+    }
+    .Flowers-Delivery h1{
+        font-weight: bold;
+        font-size: 10px;
+    }
+    .Flowers-Delivery-info p{
+        text-align: left;
+        font-weight: bold;
+        font-size: 8px;
+    }
+    .Flowers-Delivery-info{
+        position: absolute;
+        right: 0;
+        top: 20%;
+        bottom: 50%;
+        transform: translate(10%, -50%);
+        width: 180px;
+    }
+
+    
+    .Order-Same-Day{
+        display: inline-block;
+        justify-content: right;
+        align-items: center;
+        background-color: var(--button_color);
+        padding: 8px;
+        color: white;
+        position: absolute;
+        margin-top: 10px;
+        left: 0;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out , background-color 0.3s ease;
     }
 
 }

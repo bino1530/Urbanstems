@@ -336,39 +336,39 @@ body{
     margin-top: 10px;
     margin-bottom: 0px;
 }
+.best-seller-sales-off{
+    display: flex;
+    justify-content: space-between;
+}
 .best-seller-sales-off .text-blue{
     color: var(--button_color);
     font-weight: 700;
-    margin-top: 10px;
 }
 .best-seller-sales-off span{
     animation: ani 6s linear infinite;
 }
-.monthly-flower{
+.Monthly_Flowers{
     margin-top: 150px;
 }
 
-.monthly-flower{
+.Monthly_Flowers{
     width: 100%;
     position: relative;
 
 }
-.monthly-flower-image {
+.Monthly_Flowers-image {
     width: 100%;
 }
-.monthly-flower-image img{
+.Monthly_Flowers-image img{
     width: 100%;
     position: relative;
 }
-.monthly-flower-info p,h1{
+.Monthly_Flowers-info p,h1{
     text-align: right;
     font-weight: bold;
 
 }
-.monthly-flower h1{
-    font-weight: bold;
-}
-.monthly-flower-info{
+.Monthly_Flowers-info{
     position: absolute;
     right: 0;
     top: 35%;
@@ -376,6 +376,7 @@ body{
     transform: translate(-15%, -50%);
     width: 530px;
 }
+
 .starts-subscription{
     display: inline-block;
     justify-content: right;
@@ -398,3 +399,53 @@ body{
     background-color: darkblue;
 }
 
+.Order-Same-Day{
+    display: inline-block;
+    justify-content: right;
+    align-items: center;
+    background-color: var(--button_color);
+    padding: 20px;
+    color: white;
+    position: absolute;
+    margin-top: 10px;
+    left: 0;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out , background-color 0.3s ease;
+
+}
+.Order-Same-Day p{
+    margin: 0;
+
+}
+.Order-Same-Day:hover{
+    background-color: darkblue;
+}
+
+.Flowers-Delivery{
+    margin-top: 150px;
+}
+
+.Flowers-Delivery{
+    width: 100%;
+    position: relative;
+
+}
+.Flowers-Delivery-image {
+    width: 100%;
+}
+.Flowers-Delivery-image img{
+    width: 100%;
+    position: relative;
+}
+.Flowers-Delivery-info h1 , .Flowers-Delivery-info p{
+    text-align: left;
+    font-weight: bold;
+}
+.Flowers-Delivery-info{
+    position: absolute;
+    left: 0;
+    top: 35%;
+    bottom: 50%;
+    transform: translate(15%, -50%);
+    width: 530px;
+}
