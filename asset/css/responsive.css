@@ -200,8 +200,76 @@
         transition: transform 0.3s ease-in-out , background-color 0.3s ease;
     }
     
+    .Birthday-Flowers{
+        margin-top: 50px;
+    }
 
+
+   .Birthday-Flowers h1{
+        font-weight: bold;
+        font-size: 23px;
+    }
+   .Birthday-Flowers p{
+        font-weight: bold;
+        font-size: 20px;
+    }
+   .Birthday-Flowers-info{
+        position: absolute;
+        right: 0;
+        top: 20%;
+        bottom: 50%;
+        transform: translate(-10%, -50%);
+        width: 300px;
+    }
+
+    .Shop-Birthday{
+        display: inline-block;
+        justify-content: right;
+        align-items: center;
+        background-color: var(--button_color);
+        padding: 10px;
+        color: white;
+        position: absolute;
+        margin-top: 10px;
+        right: 0;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out , background-color 0.3s ease;
+    }
+
+    .Visit-My-Flowers{
+        margin-top: 50px;
+    }
+
+    .Visit-My-Flowers h1{
+        font-weight: bold;
+        font-size: 23px;
+    }
+    .Visit-My-Flowers p{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .Visit-My-Flowers-info{
+        position: absolute;
+        right: 0;
+        top: 20%;
+        bottom: 50%;
+        transform: translate(10%, -50%);
+        width: 300px;
+    }
     
+    .Shop-Now{
+        display: inline-block;
+        justify-content: right;
+        align-items: center;
+        background-color: var(--button_color);
+        padding: 10px;
+        color: white;
+        position: absolute;
+        margin-top: 10px;
+        left: 0;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out , background-color 0.3s ease;
+    }
 
 }
 
@@ -252,7 +320,7 @@
         margin-bottom: 30px;
     }
     .Monthly_Flowers{
-        margin-top: 100px;
+        margin-top: 70px;
     }
 
     .Monthly_Flowers h1{
@@ -271,6 +339,7 @@
         bottom: 50%;
         transform: translate(-10%, -50%);
         width: 250px;
+        padding: 20px;
     }
 
     .starts-subscription{
@@ -308,6 +377,8 @@
         bottom: 50%;
         transform: translate(10%, -50%);
         width: 250px;
+        padding: 20px;
+
     }
 
     
@@ -326,11 +397,94 @@
         cursor: pointer;
         transition: transform 0.3s ease-in-out , background-color 0.3s ease;
     }
+
+    .Birthday-Flowers{
+        margin-top: 70px;
+    }
+
+    .Birthday-Flowers h1{
+        font-weight: bold;
+        font-size: 19px;
+    }
+    .Birthday-Flowers-info p{
+        text-align: right;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .Birthday-Flowers-info{
+        position: absolute;
+        right: 0;
+        top: 20%;
+        bottom: 50%;
+        transform: translate(-10%, -50%);
+        width: 250px;
+        padding: 20px;
+
+    }
+
+    .Shop-Birthday{
+        display: inline-block;
+        justify-content: right;
+        align-items: center;
+        background-color: var(--button_color);
+        padding: 8px;
+        color: white;
+        position: absolute;
+        margin-top: 10px;
+        right: 0;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out , background-color 0.3s ease;
+    }
+
+    .Visit-My-Flowers{
+        margin-top: 50px;
+    }
+
+   .Visit-My-Flowers h1{
+        font-weight: bold;
+        font-size: 17px;
+    }
+   .Visit-My-Flowers-info p{
+        text-align: left;
+        font-weight: bold;
+        font-size: 14px;
+    }
+   .Visit-My-Flowers-info{
+        position: absolute;
+        right: 0;
+        top: 20%;
+        bottom: 50%;
+        transform: translate(10%, -50%);
+        width: 250px;
+        padding: 20px;
+
+    }
+
+    .Shop-Now{
+        display: inline-block;
+        justify-content: right;
+        align-items: center;
+        background-color: var(--button_color);
+        padding: 8px;
+        color: white;
+        position: absolute;
+        margin-top: 10px;
+        left: 0;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out , background-color 0.3s ease;
+    }
+
 }
 
 @media (max-width: 567px) {
+
+    .banner-of-store{
+        background-color: rgb(238, 238, 238);
+    }
+
     .Monthly_Flowers{
         position: relative;
+        padding: 20px;
     }
     .Monthly_Flowers-image{
         content: url(/asset/image/index/Monthly-Flowers-respons.jpg);
@@ -353,7 +507,7 @@
     }
     .Monthly_Flowers-info{
         position: relative;
-        margin-top: 120px;
+        margin-top: 140px;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -378,9 +532,11 @@
 
     .Flowers-Delivery{
         position: relative;
+        padding: 20px;
+
     }
     .Flowers-Delivery-image{
-        content: url(/asset/image/index/Monthly-Flowers-respons.jpg);
+        content: url(/asset/image/index/Flowers-Deliver-repons.jpg);
         width: 100%;
     }
     .Flowers-Delivery-image img{
@@ -400,7 +556,7 @@
     }
     .Flowers-Delivery-info{
         position: relative;
-        margin-top: 120px;
+        margin-top: 140px;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -423,5 +579,102 @@
         transition: transform 0.3s ease-in-out , background-color 0.3s ease;
     }
 
+    .Birthday-Flowers{
+        position: relative;
+        padding: 20px;
+
+    }
+    .Birthday-Flowers-image{
+        content: url(/asset/image/index/Flowers-Birthday-respons.jpg);
+        width: 100%;
+    }
+    .Birthday-Flowers-image img{
+        width: 100%;
+
+    }
+    .Birthday-Flowers h1{
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+    }
+    .Birthday-Flowers-info p{
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+        
+    }
+    .Birthday-Flowers-info{
+        position: relative;
+        margin-top: 140px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        left: 10%;
+        padding: 10px;
+    }
+    .Shop-Birthday{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--button_color);
+        padding: 10px 15px;
+        color: white;
+        position: unset;
+        margin-top: 0px;
+        right: 0;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out , background-color 0.3s ease;
+    }
+
+    .Visit-My-Flowers{
+        position: relative;
+        padding: 20px;
+
+    }
+    .Visit-My-Flowers-image{
+        content: url(/asset/image/index/Flowers-Visit-respons.jpg);
+        width: 100%;
+    }
+    .Visit-My-Flowers-image img{
+        width: 100%;
+
+    }
+    .Visit-My-Flowers h1{
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+    }
+    .Visit-My-Flowers-info p{
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+        
+    }
+    .Visit-My-Flowers-info{
+        position: relative;
+        margin-top: 140px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        left: -10%;
+        padding: 10px;
+    }
+    .Shop-Now{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--button_color);
+        padding: 10px 15px;
+        color: white;
+        position: unset;
+        margin-top: 0px;
+        right: 0;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out , background-color 0.3s ease;
+    }
 
 }

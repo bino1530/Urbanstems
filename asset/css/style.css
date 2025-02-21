@@ -409,27 +409,7 @@ body{
     background-color: darkblue;
 }
 
-.Order-Same-Day{
-    display: inline-block;
-    justify-content: right;
-    align-items: center;
-    background-color: var(--button_color);
-    padding: 20px;
-    color: white;
-    position: absolute;
-    margin-top: 10px;
-    left: 0;
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out , background-color 0.3s ease;
 
-}
-.Order-Same-Day p{
-    margin: 0;
-
-}
-.Order-Same-Day:hover{
-    background-color: darkblue;
-}
 
 .Flowers-Delivery{
     margin-top: 100px;
@@ -464,3 +444,140 @@ body{
     transform: translate(15%, -50%);
     width: 530px;
 }
+
+.Order-Same-Day{
+    display: inline-block;
+    justify-content: right;
+    align-items: center;
+    background-color: var(--button_color);
+    padding: 20px;
+    color: white;
+    position: absolute;
+    margin-top: 10px;
+    left: 0;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out , background-color 0.3s ease;
+
+}
+.Order-Same-Day p{
+    margin: 0;
+
+}
+.Order-Same-Day:hover{
+    background-color: darkblue;
+}
+
+.Birthday-Flowers{
+    margin-top: 100px;
+}
+
+.Birthday-Flowers{
+    width: 100%;
+    position: relative;
+
+}
+.Birthday-Flowers-image {
+    width: 100%;
+}
+.Birthday-Flowers-image img{
+    width: 100%;
+    position: relative;
+}
+.Birthday-Flowers-info p{
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+}
+.Birthday-Flowers-info h1{
+    text-align: right;
+    font-weight: bold;
+}
+.Birthday-Flowers-info{
+    position: absolute;
+    right: 0;
+    top: 35%;
+    bottom: 50%;
+    transform: translate(-15%, -50%);
+    width: 510px;
+}
+
+.Shop-Birthday{
+    display: inline-block;  
+    justify-content: right;
+    align-items: center;
+    background-color: var(--button_color);
+    padding: 20px;
+    color: white;
+    position: absolute;
+    margin-top: 10px;
+    right: 0;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out , background-color 0.3s ease;
+
+}
+.Shop-Birthday p{
+    margin: 0;
+
+}
+.Shop-Birthday:hover{
+    background-color: darkblue;
+}
+
+
+
+.Visit-My-Flowers{
+    margin-top: 100px;
+}
+
+.Visit-My-Flowers{
+    width: 100%;
+    position: relative;
+
+}
+.Visit-My-Flowers-image {
+    width: 100%;
+}
+.Visit-My-Flowers-image img{
+    width: 100%;
+    position: relative;
+}
+.Visit-My-Flowers p{
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+.Visit-My-Flowers h1{
+    text-align: left;
+    font-weight: bold;
+}
+.Visit-My-Flowers-info{
+    position: absolute;
+    left: 0;
+    top: 35%;
+    bottom: 50%;
+    transform: translate(15%, -50%);
+    width: 530px;
+}
+
+.Shop-Now{
+    display: inline-block;
+    justify-content: right;
+    align-items: center;
+    background-color: var(--button_color);
+    padding: 20px;
+    color: white;
+    position: absolute;
+    margin-top: 10px;
+    left: 0;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out , background-color 0.3s ease;
+
+}
+.Shop-Now p{
+    margin: 0;
+
+}
+.Shop-Now:hover{
+    background-color: darkblue;
+}
+
