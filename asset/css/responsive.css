@@ -271,6 +271,8 @@
         transition: transform 0.3s ease-in-out , background-color 0.3s ease;
     }
 
+    
+
 }
 
 
@@ -677,4 +679,18 @@
         transition: transform 0.3s ease-in-out , background-color 0.3s ease;
     }
 
+    .Media-row {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-around;
+        width: 100%;
+        margin-top: 50px;
+      }
+      .media-2-source{
+        margin-top: 0px;
+      }
+      .media-position{
+        margin-top: 20px;
+      }
 }
