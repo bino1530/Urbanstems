@@ -586,7 +586,7 @@ body {
   margin: 0 auto;
   width: 80%;
 }
-.Share-To_Floom h2 {
+.Share-To_Floom h4 {
   text-align: center;
   margin-top: 40px;
 }
@@ -618,40 +618,133 @@ video {
   height: auto;
 }
 
-.Floom-Benefits-Row{
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 50px;
+.Floom-Benefits-Row {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
 }
 
-.Floom-Benefits{
+.Floom-Benefits {
   margin-top: 40px;
   background-color: rgb(241, 241, 241);
   padding: 40px;
 }
 .Floom-Benefits h2 {
-    margin-top: 20px;
+  margin-top: 20px;
   text-align: center;
 }
 
-.Floom-Benefits-image{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    object-fit: cover;
+.Floom-Benefits-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  object-fit: cover;
 }
 
-.Floom-Benefits-image img{
-    width: 70px;
-    height: 70px;
+.Floom-Benefits-image img {
+  width: 70px;
+  height: 70px;
 }
-.Floom-Benefits-col p{
-    text-align: center;
-    font-size: 17px;
+.Floom-Benefits-col p {
+  text-align: center;
+  font-size: 17px;
 }
 
+.Custom-Flowers {
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.Custom-Flowers-Content {
+  width: 100%;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 30px 0px;
+}
+
+.Custom-Flowers-Row {
+  padding: 20px;
+  margin: 0;
+}
+
+.Custom-Flowers-Col {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.Custom-Flowers-image {
+  position: relative;
+  width: 100%;
+}
+.Custom-Flowers-image img {
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.common-title::before {
+  position: absolute;
+  top: 5%;
+  left: -3%;
+  padding: 12px 40px;
+  background-color: antiquewhite;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title-birthdays::before {
+  content: "Birthdays";
+}
+.title-new-baby::before {
+  content: "New Baby";
+}
+.title-anniversary::before {
+  content: "Anniversary";
+}
+.title-sympathy::before {
+  content: "Sympathy";
+}
+.The-Question{
+  margin-top: 50px;
+}
+.For-More-Question {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 20px;
+}
+.not-top {
+  border-top: none;
+}
+.For-More-Question p {
+  margin: 0;
+}
+
+.flip {
+  font-weight: bold;
+  font-size: 17px;
+}
+.panel {
+  display: none;
+  padding: 20px;
+  color: gray;
+  font-size: 15px;
+}
+
+.dropdown-status::after {
+  content: "+";
+  margin-left: 20px;
+  font-weight: bold;
+  color: gray;
+  font-size: 20px;
+}
+
+.For-More-Question.active .dropdown-status::after {
+  content: "-";
+}
