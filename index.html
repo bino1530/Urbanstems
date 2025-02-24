@@ -23,9 +23,12 @@
     <script src="/asset/js/nav.js"></script>
     <script src="/asset/js/slideshow.js"></script>
     <script src="/asset/js/dropdown.js"></script>
+    <script src="/asset/js/appear.js"></script>
     <link rel="stylesheet" href="/asset/css/bass.css" />
     <link rel="stylesheet" href="/asset/css/style.css" />
     <link rel="stylesheet" href="/asset/css/responsive.css" />
+    <link rel="stylesheet" href="/asset/css/anim.css" />
+
     <script></script>
     <title>Document</title>
   </head>
@@ -127,7 +130,7 @@
       </div>
 
       <main>
-        <div class="bg-pink">
+        <div class="bg-pink view-show">
           <div class="floom-row">
             <div class="floom-info">
               <div class="floom-info-topic">
@@ -176,7 +179,7 @@
         <div class="best-seller-container">
           <h1>Best-Selling Floom</h1>
           <div class="best-seller-row row">
-            <div class="best-seller-col col-lg-3 col-sm-6 col-12">
+            <div class="best-seller-col col-lg-3 col-sm-6 col-12 view-show">
               <div class="best-seller-image new">
                 <img
                   src="/asset/image/index/Strawnberry_Shortcake.avif"
@@ -193,7 +196,7 @@
                 <span class="text-blue">from $42</span>
               </div>
             </div>
-            <div class="best-seller-col col-lg-3 col-sm-6 col-12">
+            <div class="best-seller-col col-lg-3 col-sm-6 col-12 view-show">
               <div class="best-seller-image">
                 <img src="/asset/image/index/Always.avif" alt="" />
               </div>
@@ -207,7 +210,7 @@
                 <span class="text-blue">from $45</span>
               </div>
             </div>
-            <div class="best-seller-col col-lg-3 col-sm-6 col-12">
+            <div class="best-seller-col col-lg-3 col-sm-6 col-12 view-show">
               <div class="best-seller-image">
                 <img src="/asset/image/index/Picnic.avif" alt="" />
               </div>
@@ -221,7 +224,7 @@
                 <span class="text-blue">from $42</span>
               </div>
             </div>
-            <div class="best-seller-col col-lg-3 col-sm-6 col-12">
+            <div class="best-seller-col col-lg-3 col-sm-6 col-12 view-show">
               <div class="best-seller-image">
                 <img src="/asset/image/index/Wild_About_U.avif" alt="" />
               </div>
@@ -239,7 +242,7 @@
         </div>
         <div class="banner-of-store">
           <div class="grid">
-            <div class="Monthly_Flowers">
+            <div class="Monthly_Flowers view-left">
               <div class="Monthly_Flowers-image">
                 <img src="/asset/image/index/Monthly_Flowers.avif" alt="" />
               </div>
@@ -261,7 +264,7 @@
           </div>
 
           <div class="grid">
-            <div class="Flowers-Delivery">
+            <div class="Flowers-Delivery view-right">
               <div class="Flowers-Delivery-image">
                 <img src="/asset/image/index/Flowers-Delivery.jpg" alt="" />
               </div>
@@ -282,7 +285,7 @@
             </div>
           </div>
           <div class="grid">
-            <div class="Birthday-Flowers">
+            <div class="Birthday-Flowers view-left">
               <div class="Birthday-Flowers-image">
                 <img src="/asset/image/index/Flowers-Birthday.jpg" alt="" />
               </div>
@@ -302,7 +305,7 @@
           </div>
 
           <div class="grid">
-            <div class="Visit-My-Flowers">
+            <div class="Visit-My-Flowers view-right">
               <div class="Visit-My-Flowers-image">
                 <img src="/asset/image/index/Visit1.jpg" alt="" />
               </div>
@@ -313,7 +316,7 @@
                   Flower Shops
                 </h1>
                 <p>
-                  Shop for Bouqs at select Whole Foods Markets or at our retail
+                  Shop for Floom at select Whole Foods Markets or at our retail
                   location in LA
                 </p>
                 <div class="Shop-Now">
@@ -323,7 +326,7 @@
             </div>
           </div>
         </div>
-        <div class="Share-To_Floom">
+        <div class="Share-To_Floom view-show">
           <h4>
             We were tired of generic bouquets falling short, so we created
             Floom—a marketplace where top U.S. florists craft unique,
@@ -332,7 +335,7 @@
             online.
           </h4>
         </div>
-        <div class="Media-From-Guest">
+        <div class="Media-From-Guest view-show">
           <div class="Media-row">
             <div class="media">
               <div class="video-overlay"></div>
@@ -364,7 +367,7 @@
           </div>
         </div>
 
-        <div class="Floom-Benefits">
+        <div class="Floom-Benefits view-show">
           <h2>Why send flowers with Floom?</h2>
           <div class="Floom-Benefits-Row row">
             <div class="Floom-Benefits-col col-lg-4 col-sm-12 col-12">
@@ -403,7 +406,7 @@
           </div>
         </div>
         <div class="grid">
-          <div class="Custom-Flowers">
+          <div class="Custom-Flowers view-show">
             <h2>Custom-Crafted to Fit your Unique Needs</h2>
             <p class="Custom-Flowers-Content">
               Looking for the perfect gift for someone special? Our artisan
@@ -413,7 +416,7 @@
               impress.
             </p>
           </div>
-          <div class="Custom-Flowers-Row row">
+          <div class="Custom-Flowers-Row row view-show">
             <div class="Custom-Flowers-Col col-lg-3 col-sm-6 col-12">
               <div class="Custom-Flowers-image common-title title-birthdays">
                 <img
@@ -446,7 +449,7 @@
           </div>
         </div>
         <div class="grid">
-          <div class="The-Question">
+          <div class="The-Question view-show">
             <div class="For-More-Question">
               <p class="flip dropdown-status">Send Flowers Online Year-Round</p>
               <p class="panel">
@@ -467,14 +470,14 @@
                 something. And when the act of receiving or sending flowers is
                 involved, these occasions can mean even more. So, the next time
                 you’re looking for online flower delivery, remember that The
-                Bouqs has your back with a fantastic selection of bouquets, lush
+                Floom has your back with a fantastic selection of bouquets, lush
                 plants, and thoughtful gift sets.
               </p>
             </div>
 
             <div class="For-More-Question not-top">
               <p class="flip dropdown-status">
-                Handcrafted Bouqs Designed by Expert Florists
+                Handcrafted Floom Designed by Expert Florists
               </p>
               <p class="panel">
                 Whenever you want to order flowers online, whether it’s to say
@@ -491,7 +494,7 @@
               <p class="panel">
                 Whether it’s for an anniversary or a friend’s housewarming, or
                 any other singular moment in between, don’t settle for anything
-                less than The Bouqs Co. Our original vision began with a simple
+                less than The Floom Co. Our original vision began with a simple
                 goal to bring the act of ordering flowers into the future
                 through sustainable farming practices and standards, as well as
                 by cutting out the middleman and shipping directly to your
@@ -500,26 +503,26 @@
                 won’t find available from the competition.
               </p>
               <p class="panel">
-                We also have a handful of local Bouqs Co. Flower Shops in
+                We also have a handful of local Floom Co. Flower Shops in
                 certain areas of the country, including Los Angeles and San
-                Francisco. You can actually visit our Bouqs florists in person
+                Francisco. You can actually visit our Floom florists in person
                 and get a handcrafted arrangement that you can bring straight
                 home to a loved one or surprise a friend with at their latest
                 get-together! These local flower shops also allow us to easily
                 deliver your order on the same day, even if you place it online.
-                Get beautiful, handcrafted Bouqs delivered from our amazing
+                Get beautiful, handcrafted Floom delivered from our amazing
                 florists in New York City, Chicago, Los Angeles, San Francisco,
                 San Diego, Miami, Dallas, and Orange County today.
               </p>
             </div>
 
             <div class="For-More-Question not-top">
-              <p class="flip dropdown-status">What Sets The Bouqs Co. Apart?</p>
+              <p class="flip dropdown-status">What Sets The Floom Co. Apart?</p>
               <p class="panel">
-                Bouqs, short for bouquets, isn’t like other online floral
+                Floom, short for bouquets, isn’t like other online floral
                 retailers. We partner directly with sustainable farms that
                 minimize waste, recycle water, and protect workers’ well-being.
-                This also means our Bouqs remain fresher and last longer. Talk
+                This also means our Floom remain fresher and last longer. Talk
                 about farm fresh! When you send flowers with us, some stems
                 could be so freshly cut that they may even arrive in bud form!
                 This not only means that these flowers will last a little
@@ -556,6 +559,7 @@
                 simplified.
               </p>
             </div>
+
             <div class="For-More-Question not-top">
               <p class="flip dropdown-status">
                 Beautiful Flowers Whenever You Need Them
@@ -583,13 +587,76 @@
                 direct to doorsteps nationwide. We hear good things come in
                 flower packages, so we’re here to help you share kindness with
                 the best kind of mail: farm-fresh flowers, plants, and gifts
-                delivered by The Bouqs Co.
+                delivered by The Floom Co.
               </p>
             </div>
           </div>
         </div>
       </main>
-      <footer></footer>
+      <footer>
+        <div class="grid">
+          <div class="footer-main">
+            <div class="footer-row row">
+              <div class="footer-col col-lg-3 col-sm-3 col-12">
+                <div class="footer-content">
+                  <p class="footer-topic"><strong>Company</strong></p>
+                  <p class="footer-item">About Us</p>
+                  <p class="footer-item">Magazine</p>
+                  <p class="footer-item">Jobs</p>
+                </div>
+              </div>
+              <div class="footer-col col-lg-3 col-sm-3 col-12">
+                <div class="footer-content">
+                  <p class="footer-topic"><strong>Legal</strong></p>
+                  <p class="footer-item">Cookie Policy</p>
+                  <p class="footer-item">Privacy Policy</p>
+                  <p class="footer-item">Terms Of Service</p>
+                </div>
+              </div>
+              <div class="footer-col col-lg-3 col-sm-3 col-12">
+                <div class="footer-content">
+                  <p class="footer-topic"><strong>Account</strong></p>
+                  <p class="footer-item">Refer A Friend</p>
+                  <p class="footer-item">Login</p>
+                  <p class="footer-item">Sign in</p>
+                </div>
+              </div>
+              <div class="footer-col col-lg-3 col-sm-3 col-12">
+                <div class="footer-content">
+                  <p class="footer-topic"><strong>Shop</strong></p>
+                  <p class="footer-item">Valentine</p>
+                  <p class="footer-item">Gifts</p>
+                  <p class="footer-item">Birthdays</p>
+                  <p class="footer-item">Roses</p>
+                  <p class="footer-item">Orchids</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid">
+          <div class="media">
+            <div class="social-media">
+              <a href="https://www.facebook.com" target="_blank">
+                <i class="fa-brands fa-facebook fa-lg fa-gray"></i>
+              </a>
+              <a href="https://www.instagram.com" target="_blank">
+                <i class="fa-brands fa-instagram fa-lg"></i>
+              </a>
+              <a href="https://www.pinterest.com" target="_blank">
+                <i class="fa-brands fa-pinterest fa-lg"></i>
+              </a>
+              <a href="https://www.twitter.com" target="_blank">
+                <i class="fa-brands fa-twitter fa-lg"></i>
+              </a>
+            </div>
+            <div class="copyright">
+              <p>Copyright 2025, The Floom Company</p>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>

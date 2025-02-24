@@ -748,3 +748,47 @@ video {
 .For-More-Question.active .dropdown-status::after {
   content: "-";
 }
+footer{
+  margin-top: 50px;
+  padding: 20px;
+}
+.footer-row{
+  display: flex;
+  justify-content: center;
+  margin: 0 ;
+}
+.footer-col{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.footer-col p{
+  text-align: left;
+  margin-top: 15px;
+}
+
+.footer-item{
+  color: gray;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.footer-item:hover{
+  color: rgb(104, 104, 104);
+}
+
+.media{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.social-media i{
+  margin: 20px 10px;
+  color: gray;
+}
+.copyright p{
+  font-size: 16px;
+  color: gray;
+}

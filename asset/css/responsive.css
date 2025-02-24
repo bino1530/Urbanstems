@@ -693,4 +693,9 @@
       .media-position{
         margin-top: 20px;
       }
+
+      .footer-col p{
+        text-align: center;
+        margin-top: 15px;
+      }
 }
